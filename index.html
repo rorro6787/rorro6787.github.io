@@ -5,8 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Masterdots Game</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body>
-    
+    <!--CABECERA-->
+    <header>
+        <img src="/media/logo.png" alt="Logo MasterDots">
+    </header>
+    <!--MAIN-->
+    <main>
+        <form action="#">
+            <div class="itemform">
+              <label for="nick">Enter your nick: </label>
+              <input type="text" name="nick" id="nick" required>
+            </div>
+            <div class="intemform">
+              <label for="tamano">Size of the game: </label>
+              <select name="tamano" id="tamano">
+                <option value="">--Please, choose a size--</option>
+                <option value="1">4x4</option>
+                <option value="2">5x5</option>
+                <option value="3">6x6</option>
+              </select>
+            </div>
+            <div class="itermform">
+              <input type="submit" value="PLAY">
+            </div>
+          </form>
+    </main>
+    <!--FOOTER-->
+    <footer>
+        <p>Curso FrotEnd HTML, CSS y JS</p>
+    </footer>
 </body>
 </html>
